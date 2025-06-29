@@ -24,7 +24,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt
+          pip install pandas pytest
 
       - name: Run tests
         run: pytest
